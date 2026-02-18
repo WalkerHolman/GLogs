@@ -1,0 +1,338 @@
+==================== 2026-02-16T23:14:08.939211Z | 44595140-7584-4c08-afc6-9b3e38b4a68c ====================
+23:14:08.939393 [info ]: Starting dbt LSP server
+23:14:08.939471 [info ]: Connecting to LSP client on port 8000
+23:14:08.939787 [info ]: Successfully connected to LSP client
+23:14:08.939793 [info ]: Creating LSP service...
+23:14:08.991116 [info ]: Creating LSP server...
+23:14:08.991136 [info ]: Starting LSP server...
+23:14:09.005848 [info ]: Started loading project
+23:14:09.008405 [info ]: Finished loading project [  0.00s]
+23:14:59.576216 [info ]: Started loading project
+23:14:59.576718 [info ]: Loading .dbt/profiles.yml
+23:14:59.578567 [info ]: Finished loading project [  0.00s]
+23:15:27.960548 [info ]: Loading .dbt/profiles.yml
+23:15:56.148555 [info ]: Loading .dbt/profiles.yml
+23:16:21.736195 [info ]: Loading .dbt/profiles.yml
+23:17:21.599281 [info ]: Loading .dbt/profiles.yml
+23:17:21.607223 [info ]: Started loading project
+23:17:21.607404 [info ]: Loading .dbt/profiles.yml
+23:17:21.769197 [debug]:    Started loading packages
+23:17:21.769847 [debug]:     Loaded [  0.00s] packages
+23:17:21.769866 [debug]:    Started loading internal packages
+23:17:21.772414 [debug]:     Loaded [  0.00s] internal packages
+23:17:21.772907 [info ]: Started parsing
+23:17:21.794054 [info ]: Finished loading project [  0.19s]
+23:17:21.796120 [debug]: Finished parsing models/schema.yml [  0.00s]
+23:17:21.796416 [debug]: Finished parsing models/sources.yml [  0.00s]
+23:17:21.799136 [debug]: Finished parsing models/marts/fct_weather_hourly.sql [  0.00s]
+23:17:21.801946 [debug]: Finished parsing models/staging/stg_weather.sql [  0.00s]
+23:17:21.803629 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_location.sql [  0.00s]
+23:17:21.804088 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_time.sql [  0.00s]
+23:17:21.804475 [debug]: Finished parsing target/generic_tests/unique_fct_weather_hourly_time.sql [  0.00s]
+23:17:21.804970 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_location.sql [  0.00s]
+23:17:21.807126 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_time.sql [  0.00s]
+23:17:21.807647 [info ]: Finished parsing [  0.03s]
+23:17:21.807891 [info ]: Cached model count updated: 2 models (estimate)
+23:17:21.807899 [info ]: Cached model count updated: 2 models (accurate)
+23:17:21.808046 [info ]: Started scheduling
+23:17:21.808312 [info ]: Finished scheduling [  0.00s]
+23:17:21.808685 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "SNOWFLAKE_LEARNING_DB", schema: "PUBLIC", table: "WEATHER" }) and interval: None
+23:17:21.809447 [info ]: Started deferring state
+23:17:21.809465 [info ]: Finished deferring state [  0.00s]
+23:17:21.813647 [info ]: Started downloading schemas
+23:17:21.813856 [debug]: Started downloading relations
+23:17:21.814343 [debug]: Finished downloading relations [  0.00s]
+23:17:21.814708 [info ]: Finished downloading schemas [  0.00s]
+23:17:45.370587 [info ]: Started loading project
+23:17:45.370905 [info ]: Loading .dbt/profiles.yml
+23:17:45.371197 [info ]: Finished loading project [  0.00s]
+22:50:26.203335 [info ]: Started loading project
+22:50:26.218882 [info ]: Loading .dbt/profiles.yml
+22:50:26.384578 [debug]:    Started loading packages
+22:50:26.390508 [debug]:     Loaded [  0.01s] packages
+22:50:26.390723 [debug]:    Started loading internal packages
+22:50:26.393706 [debug]:     Loaded [  0.00s] internal packages
+22:50:26.396905 [info ]: Started parsing
+22:50:26.422339 [info ]: Finished loading project [  0.22s]
+22:50:26.435058 [debug]: Finished parsing models/schema.yml [  0.01s]
+22:50:26.435955 [debug]: Finished parsing models/sources.yml [  0.00s]
+22:50:26.451872 [debug]: Finished parsing models/marts/fct_weather_hourly.sql [  0.01s]
+22:50:26.458846 [debug]: Finished parsing models/staging/stg_weather.sql [  0.01s]
+22:50:26.463213 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_location.sql [  0.00s]
+22:50:26.463600 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_time.sql [  0.00s]
+22:50:26.464343 [debug]: Finished parsing target/generic_tests/unique_fct_weather_hourly_time.sql [  0.00s]
+22:50:26.464606 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_location.sql [  0.00s]
+22:50:26.466218 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_time.sql [  0.00s]
+22:50:26.469132 [info ]: Finished parsing [  0.07s]
+22:50:26.470999 [info ]: Cached model count updated: 2 models (estimate)
+22:50:26.471008 [info ]: Cached model count updated: 2 models (accurate)
+22:50:26.471694 [info ]: Started scheduling
+22:50:26.472824 [info ]: Finished scheduling [  0.00s]
+22:50:26.475144 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "SNOWFLAKE_LEARNING_DB", schema: "PUBLIC", table: "WEATHER" }) and interval: None
+22:50:26.477183 [info ]: Started deferring state
+22:50:26.477202 [info ]: Finished deferring state [  0.00s]
+22:50:26.491247 [info ]: Started downloading schemas
+22:50:26.492086 [debug]: Started downloading relations
+22:50:26.495156 [debug]: Finished downloading relations [  0.00s]
+22:50:26.495347 [info ]: Finished downloading schemas [  0.00s]
+23:29:10.485888 [info ]: Started loading project
+23:29:10.486670 [info ]: Loading .dbt/profiles.yml
+23:29:10.487575 [info ]: Finished loading project [  0.00s]
+23:44:11.498254 [info ]: Started loading project
+23:44:11.499573 [info ]: Loading .dbt/profiles.yml
+23:44:11.500232 [info ]: Finished loading project [  0.00s]
+23:44:27.096397 [info ]: Started loading project
+23:44:27.097143 [info ]: Loading .dbt/profiles.yml
+23:44:27.097753 [info ]: Finished loading project [  0.00s]
+23:47:37.433678 [info ]: Started loading project
+23:47:37.434312 [info ]: Loading .dbt/profiles.yml
+23:47:37.435224 [info ]: Finished loading project [  0.00s]
+23:47:42.692715 [info ]: Started loading project
+23:47:42.693401 [info ]: Loading .dbt/profiles.yml
+23:47:42.693725 [info ]: Finished loading project [  0.00s]
+23:48:30.285236 [info ]: Started loading project
+23:48:30.285828 [info ]: Loading .dbt/profiles.yml
+23:48:30.286454 [info ]: Finished loading project [  0.00s]
+23:48:47.195381 [info ]: Started loading project
+23:48:47.197148 [info ]: Loading .dbt/profiles.yml
+23:48:47.197808 [info ]: Finished loading project [  0.00s]
+23:49:05.627751 [info ]: Started loading project
+23:49:05.628275 [info ]: Loading .dbt/profiles.yml
+23:49:05.628737 [info ]: Finished loading project [  0.00s]
+23:56:06.361108 [info ]: Started loading project
+23:56:06.361754 [info ]: Loading .dbt/profiles.yml
+23:56:06.362628 [info ]: Finished loading project [  0.00s]
+23:56:10.201572 [info ]: Started loading project
+23:56:10.202541 [info ]: Loading .dbt/profiles.yml
+23:56:10.202899 [info ]: Finished loading project [  0.00s]
+23:57:44.354786 [info ]: Started loading project
+23:57:44.355371 [info ]: Loading .dbt/profiles.yml
+23:57:44.501900 [debug]:    Started loading packages
+23:57:44.502575 [debug]:     Loaded [  0.00s] packages
+23:57:44.502588 [debug]:    Started loading internal packages
+23:57:44.504723 [debug]:     Loaded [  0.00s] internal packages
+23:57:44.504910 [info ]: Started parsing
+23:57:44.520367 [info ]: Finished loading project [  0.17s]
+23:57:44.522283 [debug]: Finished parsing models/schema.yml [  0.00s]
+23:57:44.522565 [debug]: Finished parsing models/sources.yml [  0.00s]
+23:57:44.523758 [debug]: Finished parsing models/marts/fct_weather_hourly.sql [  0.00s]
+23:57:44.526175 [debug]: Finished parsing models/staging/stg_weather.sql [  0.00s]
+23:57:44.527247 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_location.sql [  0.00s]
+23:57:44.527470 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_time_hour.sql [  0.00s]
+23:57:44.527788 [debug]: Finished parsing target/generic_tests/unique_fct_weather_hourly_time_hour.sql [  0.00s]
+23:57:44.527985 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_location.sql [  0.00s]
+23:57:44.528988 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_time_hour.sql [  0.00s]
+23:57:44.529559 [info ]: Finished parsing [  0.02s]
+23:57:44.529665 [info ]: Cached model count updated: 2 models (estimate)
+23:57:44.529672 [info ]: Cached model count updated: 2 models (accurate)
+23:57:44.529697 [info ]: Started scheduling
+23:57:44.529746 [info ]: Finished scheduling [  0.00s]
+23:57:44.529798 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "SNOWFLAKE_LEARNING_DB", schema: "PUBLIC", table: "WEATHER" }) and interval: None
+23:57:44.530051 [info ]: Started deferring state
+23:57:44.530057 [info ]: Finished deferring state [  0.00s]
+23:57:44.530545 [info ]: Started downloading schemas
+23:57:44.530577 [debug]: Started downloading relations
+23:57:44.530648 [debug]: Finished downloading relations [  0.00s]
+23:57:44.530703 [info ]: Finished downloading schemas [  0.00s]
+23:58:13.182968 [info ]: Started loading project
+23:58:13.183855 [info ]: Loading .dbt/profiles.yml
+23:58:13.329635 [debug]:    Started loading packages
+23:58:13.330088 [debug]:     Loaded [  0.00s] packages
+23:58:13.330099 [debug]:    Started loading internal packages
+23:58:13.332304 [debug]:     Loaded [  0.00s] internal packages
+23:58:13.332436 [info ]: Started parsing
+23:58:13.348175 [info ]: Finished loading project [  0.17s]
+23:58:13.349396 [debug]: Finished parsing models/schema.yml [  0.00s]
+23:58:13.350472 [debug]: Finished parsing models/sources.yml [  0.00s]
+23:58:13.351632 [debug]: Finished parsing models/marts/fct_weather_hourly.sql [  0.00s]
+23:58:13.353215 [debug]: Finished parsing models/staging/stg_weather.sql [  0.00s]
+23:58:13.354189 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_location.sql [  0.00s]
+23:58:13.354396 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_time_hour.sql [  0.00s]
+23:58:13.354632 [debug]: Finished parsing target/generic_tests/unique_fct_weather_hourly_time_hour.sql [  0.00s]
+23:58:13.354820 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_location.sql [  0.00s]
+23:58:13.355892 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_time_hour.sql [  0.00s]
+23:58:13.356201 [info ]: Finished parsing [  0.02s]
+23:58:13.356292 [info ]: Cached model count updated: 2 models (estimate)
+23:58:13.356299 [info ]: Cached model count updated: 2 models (accurate)
+23:58:13.356311 [info ]: Started scheduling
+23:58:13.356345 [info ]: Finished scheduling [  0.00s]
+23:58:13.356364 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "SNOWFLAKE_LEARNING_DB", schema: "PUBLIC", table: "WEATHER" }) and interval: None
+23:58:13.356601 [info ]: Started deferring state
+23:58:13.356606 [info ]: Finished deferring state [  0.00s]
+23:58:13.356987 [info ]: Started downloading schemas
+23:58:13.357009 [debug]: Started downloading relations
+23:58:13.357047 [debug]: Finished downloading relations [  0.00s]
+23:58:13.357107 [info ]: Finished downloading schemas [  0.00s]
+23:58:13.753563 [info ]: Loading .dbt/profiles.yml
+23:58:17.752730 [info ]: Started loading project
+23:58:17.753078 [info ]: Loading .dbt/profiles.yml
+23:58:17.880980 [debug]:    Started loading packages
+23:58:17.881402 [debug]:     Loaded [  0.00s] packages
+23:58:17.881411 [debug]:    Started loading internal packages
+23:58:17.883408 [debug]:     Loaded [  0.00s] internal packages
+23:58:17.883542 [info ]: Started parsing
+23:58:17.898495 [info ]: Finished loading project [  0.15s]
+23:58:17.899407 [debug]: Finished parsing models/schema.yml [  0.00s]
+23:58:17.899600 [debug]: Finished parsing models/sources.yml [  0.00s]
+23:58:17.901796 [debug]: Finished parsing models/marts/fct_weather_hourly.sql [  0.00s]
+23:58:17.902987 [debug]: Finished parsing models/staging/stg_weather.sql [  0.00s]
+23:58:17.903726 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_location.sql [  0.00s]
+23:58:17.903936 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_time_hour.sql [  0.00s]
+23:58:17.904224 [debug]: Finished parsing target/generic_tests/unique_fct_weather_hourly_time_hour.sql [  0.00s]
+23:58:17.904424 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_location.sql [  0.00s]
+23:58:17.905478 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_time_hour.sql [  0.00s]
+23:58:17.905879 [info ]: Finished parsing [  0.02s]
+23:58:17.905977 [info ]: Cached model count updated: 2 models (estimate)
+23:58:17.905983 [info ]: Cached model count updated: 2 models (accurate)
+23:58:17.905996 [info ]: Started scheduling
+23:58:17.906029 [info ]: Finished scheduling [  0.00s]
+23:58:17.906048 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "SNOWFLAKE_LEARNING_DB", schema: "PUBLIC", table: "WEATHER" }) and interval: None
+23:58:17.906275 [info ]: Started deferring state
+23:58:17.906281 [info ]: Finished deferring state [  0.00s]
+23:58:17.906652 [info ]: Started downloading schemas
+23:58:17.906673 [debug]: Started downloading relations
+23:58:17.906730 [debug]: Finished downloading relations [  0.00s]
+23:58:17.906754 [info ]: Finished downloading schemas [  0.00s]
+23:58:18.301447 [info ]: Loading .dbt/profiles.yml
+==================== 2026-02-17T23:58:59.567299Z | be496f9b-7efd-46b9-ad17-e100c7065636 ====================
+23:58:59.567319 [info ]: Starting dbt LSP server
+23:58:59.567331 [info ]: Connecting to LSP client on port 8000
+23:58:59.567667 [info ]: Successfully connected to LSP client
+23:58:59.567672 [info ]: Creating LSP service...
+23:58:59.614429 [info ]: Creating LSP server...
+23:58:59.614441 [info ]: Starting LSP server...
+23:58:59.902435 [info ]: Started loading project
+23:58:59.905497 [info ]: Loading .dbt/profiles.yml
+23:59:00.062134 [debug]:    Started loading packages
+23:59:00.062685 [debug]:     Loaded [  0.00s] packages
+23:59:00.062695 [debug]:    Started loading internal packages
+23:59:00.064905 [debug]:     Loaded [  0.00s] internal packages
+23:59:00.065078 [info ]: Started parsing
+23:59:00.080881 [info ]: Finished loading project [  0.18s]
+23:59:00.081784 [debug]: Finished parsing models/schema.yml [  0.00s]
+23:59:00.081928 [debug]: Finished parsing models/sources.yml [  0.00s]
+23:59:00.085017 [debug]: Finished parsing models/marts/fct_weather_hourly.sql [  0.00s]
+23:59:00.088600 [debug]: Finished parsing models/staging/stg_weather.sql [  0.00s]
+23:59:00.090316 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_location.sql [  0.00s]
+23:59:00.091097 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_time_hour.sql [  0.00s]
+23:59:00.091604 [debug]: Finished parsing target/generic_tests/unique_fct_weather_hourly_time_hour.sql [  0.00s]
+23:59:00.091899 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_location.sql [  0.00s]
+23:59:00.093295 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_time_hour.sql [  0.00s]
+23:59:00.093619 [info ]: Finished parsing [  0.03s]
+23:59:00.093738 [info ]: Cached model count updated: 2 models (estimate)
+23:59:00.093745 [info ]: Cached model count updated: 2 models (accurate)
+23:59:00.093980 [info ]: Started scheduling
+23:59:00.094031 [info ]: Finished scheduling [  0.00s]
+23:59:00.094074 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "SNOWFLAKE_LEARNING_DB", schema: "PUBLIC", table: "WEATHER" }) and interval: None
+23:59:00.094391 [info ]: Started deferring state
+23:59:00.094398 [info ]: Finished deferring state [  0.00s]
+23:59:00.099857 [info ]: Started downloading schemas
+23:59:00.099893 [debug]: Started downloading relations
+23:59:00.100121 [debug]: Finished downloading relations [  0.00s]
+23:59:00.100179 [info ]: Finished downloading schemas [  0.00s]
+23:59:00.450731 [info ]: Loading .dbt/profiles.yml
+==================== 2026-02-17T23:59:23.948225Z | 10fa7a21-ea6e-4b79-a06b-6bbda8799b6b ====================
+23:59:23.948256 [info ]: Starting dbt LSP server
+23:59:23.948273 [info ]: Connecting to LSP client on port 8000
+23:59:23.948828 [info ]: Successfully connected to LSP client
+23:59:23.948851 [info ]: Creating LSP service...
+23:59:23.989586 [info ]: Creating LSP server...
+23:59:23.989606 [info ]: Starting LSP server...
+23:59:24.368961 [info ]: Started loading project
+23:59:24.370419 [info ]: Loading .dbt/profiles.yml
+23:59:24.493201 [debug]:    Started loading packages
+23:59:24.493717 [debug]:     Loaded [  0.00s] packages
+23:59:24.493727 [debug]:    Started loading internal packages
+23:59:24.495918 [debug]:     Loaded [  0.00s] internal packages
+23:59:24.496086 [info ]: Started parsing
+23:59:24.511183 [info ]: Finished loading project [  0.14s]
+23:59:24.512047 [debug]: Finished parsing models/schema.yml [  0.00s]
+23:59:24.512127 [debug]: Finished parsing models/sources.yml [  0.00s]
+23:59:24.514166 [debug]: Finished parsing models/marts/fct_weather_hourly.sql [  0.00s]
+23:59:24.516636 [debug]: Finished parsing models/staging/stg_weather.sql [  0.00s]
+23:59:24.517580 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_location.sql [  0.00s]
+23:59:24.517996 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_time_hour.sql [  0.00s]
+23:59:24.518444 [debug]: Finished parsing target/generic_tests/unique_fct_weather_hourly_time_hour.sql [  0.00s]
+23:59:24.518674 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_location.sql [  0.00s]
+23:59:24.519788 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_time_hour.sql [  0.00s]
+23:59:24.520210 [info ]: Finished parsing [  0.02s]
+23:59:24.520325 [info ]: Cached model count updated: 2 models (estimate)
+23:59:24.520331 [info ]: Cached model count updated: 2 models (accurate)
+23:59:24.520365 [info ]: Started scheduling
+23:59:24.520419 [info ]: Finished scheduling [  0.00s]
+23:59:24.520463 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "SNOWFLAKE_LEARNING_DB", schema: "PUBLIC", table: "WEATHER" }) and interval: None
+23:59:24.520727 [info ]: Started deferring state
+23:59:24.520734 [info ]: Finished deferring state [  0.00s]
+23:59:24.521370 [info ]: Started downloading schemas
+23:59:24.521413 [debug]: Started downloading relations
+23:59:24.521485 [debug]: Finished downloading relations [  0.00s]
+23:59:24.521551 [info ]: Finished downloading schemas [  0.00s]
+23:59:24.897032 [info ]: Loading .dbt/profiles.yml
+23:59:39.042970 [info ]: Started loading project
+23:59:39.043549 [info ]: Loading .dbt/profiles.yml
+23:59:39.168305 [debug]:    Started loading packages
+23:59:39.169591 [debug]:     Loaded [  0.00s] packages
+23:59:39.169604 [debug]:    Started loading internal packages
+23:59:39.171652 [debug]:     Loaded [  0.00s] internal packages
+23:59:39.171781 [info ]: Started parsing
+23:59:39.186797 [info ]: Finished loading project [  0.14s]
+23:59:39.188225 [debug]: Finished parsing models/schema.yml [  0.00s]
+23:59:39.188752 [debug]: Finished parsing models/sources.yml [  0.00s]
+23:59:39.190225 [debug]: Finished parsing models/marts/fct_weather_hourly.sql [  0.00s]
+23:59:39.191757 [debug]: Finished parsing models/staging/stg_weather.sql [  0.00s]
+23:59:39.192686 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_location.sql [  0.00s]
+23:59:39.192920 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_time_hour.sql [  0.00s]
+23:59:39.193200 [debug]: Finished parsing target/generic_tests/unique_fct_weather_hourly_time_hour.sql [  0.00s]
+23:59:39.193457 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_location.sql [  0.00s]
+23:59:39.194617 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_time_hour.sql [  0.00s]
+23:59:39.195040 [info ]: Finished parsing [  0.02s]
+23:59:39.195127 [info ]: Cached model count updated: 2 models (estimate)
+23:59:39.195134 [info ]: Cached model count updated: 2 models (accurate)
+23:59:39.195146 [info ]: Started scheduling
+23:59:39.195180 [info ]: Finished scheduling [  0.00s]
+23:59:39.195198 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "SNOWFLAKE_LEARNING_DB", schema: "PUBLIC", table: "WEATHER" }) and interval: None
+23:59:39.195443 [info ]: Started deferring state
+23:59:39.195448 [info ]: Finished deferring state [  0.00s]
+23:59:39.195810 [info ]: Started downloading schemas
+23:59:39.195836 [debug]: Started downloading relations
+23:59:39.195871 [debug]: Finished downloading relations [  0.00s]
+23:59:39.195931 [info ]: Finished downloading schemas [  0.00s]
+00:12:42.783958 [info ]: Started loading project
+00:12:42.784733 [info ]: Loading ../GLogslocal/.dbt/profiles.yml
+00:12:42.935423 [debug]:    Started loading packages
+00:12:42.935982 [debug]:     Loaded [  0.00s] packages
+00:12:42.935992 [debug]:    Started loading internal packages
+00:12:42.938553 [debug]:     Loaded [  0.00s] internal packages
+00:12:42.938765 [info ]: Started parsing
+00:12:42.956823 [info ]: Finished loading project [  0.17s]
+00:12:42.957997 [debug]: Finished parsing models/schema.yml [  0.00s]
+00:12:42.958272 [debug]: Finished parsing models/sources.yml [  0.00s]
+00:12:42.960053 [debug]: Finished parsing models/marts/fct_weather_hourly.sql [  0.00s]
+00:12:42.962588 [debug]: Finished parsing models/staging/stg_weather.sql [  0.00s]
+00:12:42.964123 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_location.sql [  0.00s]
+00:12:42.964397 [debug]: Finished parsing target/generic_tests/not_null_fct_weather_hourly_time_hour.sql [  0.00s]
+00:12:42.964673 [debug]: Finished parsing target/generic_tests/unique_fct_weather_hourly_time_hour.sql [  0.00s]
+00:12:42.964904 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_location.sql [  0.00s]
+00:12:42.966036 [debug]: Finished parsing target/generic_tests/not_null_stg_weather_time_hour.sql [  0.00s]
+00:12:42.966394 [info ]: Finished parsing [  0.03s]
+00:12:42.966515 [info ]: Cached model count updated: 2 models (estimate)
+00:12:42.966523 [info ]: Cached model count updated: 2 models (accurate)
+00:12:42.966568 [info ]: Started scheduling
+00:12:42.966623 [info ]: Finished scheduling [  0.00s]
+00:12:42.966687 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "SNOWFLAKE_LEARNING_DB", schema: "PUBLIC", table: "WEATHER" }) and interval: None
+00:12:42.966960 [info ]: Started deferring state
+00:12:42.966968 [info ]: Finished deferring state [  0.00s]
+00:12:42.967785 [info ]: Started downloading schemas
+00:12:42.967828 [debug]: Started downloading relations
+00:12:42.967899 [debug]: Finished downloading relations [  0.00s]
+00:12:42.967978 [info ]: Finished downloading schemas [  0.00s]
+00:12:43.360224 [info ]: Loading ../GLogslocal/.dbt/profiles.yml
+==================== 2026-02-18T00:13:50.838644Z | a3061e11-5c61-4ffa-9f4f-ece856dab157 ====================
+00:13:50.838666 [info ]: Starting dbt LSP server
+00:13:50.838678 [info ]: Connecting to LSP client on port 8000
+00:13:50.838951 [info ]: Successfully connected to LSP client
+00:13:50.838959 [info ]: Creating LSP service...
+00:13:50.882944 [info ]: Creating LSP server...
+00:13:50.882967 [info ]: Starting LSP server...
+00:13:51.157596 [info ]: Started loading project
+00:13:51.160080 [info ]: Finished loading project [  0.00s]

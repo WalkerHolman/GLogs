@@ -1,0 +1,19 @@
+name: glogs
+version: 1.0.0
+config-version: 2
+
+profile: glogs
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+test-paths: ["tests"]
+
+models:
+  glogs:
+    +materialized: view
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

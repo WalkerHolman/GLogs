@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: stg_weather
+    columns:
+      - name: location
+        tests: [not_null]
+      - name: time_hour
+        tests: [not_null]
+
+  - name: fct_weather_hourly
+    columns:
+      - name: location
+        tests: [not_null]
+      - name: time_hour
+        tests:
+          - not_null
+          - unique:
+              config:
+                severity: warn

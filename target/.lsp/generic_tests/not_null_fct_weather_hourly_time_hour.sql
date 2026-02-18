@@ -1,0 +1,1 @@
+{{ test_not_null(column_name="time_hour", model=get_where_subquery(ref('fct_weather_hourly'))) }}
